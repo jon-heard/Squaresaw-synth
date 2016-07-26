@@ -1,0 +1,27 @@
+
+fixup and consolidate ui system
+dragging to sequencer panel doesn't work right (tends to drag to instrument panel)
+see to it that keyboard keeps track of previous presses (up to 5) and switches back when further presses are released
+Transfer audio buffer building to C functions
+Have confirmation for:
+	overwriting preset
+	overwriting a category (more of a notification that it already exists, really)
+
+find way to setup timing to be independent of buffer fill threads
+fix arpegiation clicking
+
+get bender mode working (?) (pitch bend)
+	alternate mode in keyboard... keyboard sends back frequency changes during drag
+	instrument must be able to take frequency changes along with notes
+
+confirm dialog (ok/close).  Used:
+	when loading song over dirty song
+	when deleting song
+	when quitting w/ dirty song
+
+Figure out how to stop ending pop on notes
+fix buzzing in waves
+figure out how to get re-sizable in windows
+make keyboard resizable (dragging)
+fine tune the knobs
+optimize w/ profiler
