@@ -1,0 +1,42 @@
+- add echo functionality
+- add functionality for buffer sizing
+DONE!!
+
+- look for issue with back button (should just minimize)
+- try to get it working with surface touches
+- try out superpowered
+- fix snap in triangle and sine waves
+- fix sizing/scaling to always scale to height, never width
+	increase width shows more instrument and keys
+	increase height scales up
+- drag icon for bottom
+
+FINISH UP SYNTH
+UNLOCK VERTICAL DRAG
+
+fixup and consolidate ui system
+dragging to sequencer panel doesn't work right (tends to drag to instrument panel)
+see to it that keyboard keeps track of previous presses (up to 5) and switches back when further presses are released
+Transfer audio buffer building to C functions
+Have confirmation for:
+	overwriting preset
+	overwriting a category (more of a notification that it already exists, really)
+
+find way to setup timing to be independent of buffer fill threads
+fix arpegiation clicking
+
+get bender mode working (?) (pitch bend)
+	alternate mode in keyboard... keyboard sends back frequency changes during drag
+	instrument must be able to take frequency changes along with notes
+
+confirm dialog (ok/close).  Used:
+	when loading song over dirty song
+	when deleting song
+	when quitting w/ dirty song
+
+Figure out how to stop ending pop on notes
+fix buzzing in waves
+figure out how to get re-sizable in windows
+make keyboard resizable (dragging)
+fine tune the knobs
+optimize w/ profiler
