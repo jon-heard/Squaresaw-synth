@@ -27,7 +27,7 @@
 <div style="margin-left:2em;">
 
 One challenge was that libGDX has no GUI functionality, requiring that I develop the UI from scratch.  The UI has many moving parts, requiring a hierarchy based UI and procedural graphics for flexibility.
-
+<br/><br/>
 A more showstopping issue was due to audio latency issues inherent in the Android OS. I was able to minimize this with precomputation and optimizing buffer sizes.  However, the project's goal of a fun, interactive toy was always hampered by audio latency. Android's audio issues are less prominent today than they used to be, however. Perhaps this app deserves a revisit.
 
 </div>
